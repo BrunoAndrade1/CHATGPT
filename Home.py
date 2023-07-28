@@ -5,10 +5,9 @@ import pandas as pd
 import webbrowser
 #$$$$$$$
 import openai
-openai.api_key = "z3ydK4TGR8FBqpO4P1JxT3BlbkFJrXmWK5QUYZlDdTfDynh1"
+openai.api_key = ""
 import openai
 import streamlit as st
-from deta import Deta
 from geopy.geocoders import Nominatim
 # Configurações da página
 
