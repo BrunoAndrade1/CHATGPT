@@ -14,7 +14,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import openai
-openai.api_key = ''
 openai.api_key = st.secrets["openai"]["api_key"]
 st.set_page_config(layout="wide")
 
