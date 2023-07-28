@@ -16,13 +16,12 @@ import plotly.express as px
 import openai
 openai.api_key = st.secrets["openai"]["api_key"]
 st.set_page_config(layout="wide")
-
 st.title('Indicadores Contábeis')
 
 
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Chat gpt #####################################################
 
-def chat_with_gpt3(prompt, max_tokens=100):
+def chat_with_gpt3(prompt, max_tokens=200):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  
         messages=[
